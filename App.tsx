@@ -7,7 +7,6 @@
  *
  * @format
  */
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -34,12 +33,14 @@ declare const global: {HermesInternal: null | {}};
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      {/* <StatusBar barStyle="dark-content" /> */}
+      {/* <SafeAreaView> */}
+      <Test />
+      {/*
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
-          {/* <Header /> */}
+          <Header />
           <Test />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
@@ -74,8 +75,8 @@ const App = () => {
             </View>
             <LearnMoreLinks />
           </View>
-        </ScrollView>
-      </SafeAreaView>
+        </ScrollView> */}
+      {/* </SafeAreaView> */}
     </>
   );
 };
