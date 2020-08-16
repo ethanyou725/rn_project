@@ -27,6 +27,10 @@ import {
 
 import Config from 'react-native-config';
 import Test from './src/index';
+import {configure} from 'mobx';
+import 'mobx-react-lite/batchingForReactNative';
+
+configure({enforceActions: 'never'});
 
 declare const global: {HermesInternal: null | {}};
 

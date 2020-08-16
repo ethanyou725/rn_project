@@ -19,15 +19,17 @@ type Route = RouteProp<RootStackParamList, 'BottomTabs'> & {
 };
 const Tab = createBottomTabNavigator<BottomTabParamList>();
 
-interface IProps {
+export interface IProps {
   navigation: RootStackNavigation;
   route: RouteProp<RootStackParamList, 'BottomTabs'>;
 }
 
 function getHeaderTitle(route: Route): string {
+  console.log(route);
   const routeName = route.state
     ? route.state.routes[route.state.index].name
-    : route.params || 'Home';
+    : route.name || 'Home';
+
   const map: any = {
     Home: '首页',
     Listen: '我听',

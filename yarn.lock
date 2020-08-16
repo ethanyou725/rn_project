@@ -5115,6 +5115,23 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mobx-react-lite@>=2.0.6:
+  version "2.0.7"
+  resolved "https://registry.npm.taobao.org/mobx-react-lite/download/mobx-react-lite-2.0.7.tgz#1bfb3b4272668e288047cf0c7940b14e91cba284"
+  integrity sha1-G/s7QnJmjiiAR88MeUCxTpHLooQ=
+
+mobx-react@^6.2.5:
+  version "6.2.5"
+  resolved "https://registry.npm.taobao.org/mobx-react/download/mobx-react-6.2.5.tgz?cache=0&sync_timestamp=1595990790682&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmobx-react%2Fdownload%2Fmobx-react-6.2.5.tgz#9020a17b79cc6dc3d124ad89ab36eb9ea540a45b"
+  integrity sha1-kCChe3nMbcPRJK2JqzbrnqVApFs=
+  dependencies:
+    mobx-react-lite ">=2.0.6"
+
+mobx@4.15.4:
+  version "4.15.4"
+  resolved "https://registry.npm.taobao.org/mobx/download/mobx-4.15.4.tgz#644eac80bdd15793855194e764c475041101b406"
+  integrity sha1-ZE6sgL3RV5OFUZTnZMR1BBEBtAY=
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
